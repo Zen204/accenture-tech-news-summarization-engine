@@ -17,12 +17,47 @@ Welcome to the Tech News Summarization Engine! This project, developed in collab
 4. **Sentiment Analysis:** Analyzes the emotional tone using pre-trained sentiment models.
 5. **Output:** Provides users with concise summaries, key insights, and sentiment details.
 
+## Installation
+### Prerequisites
+- Python 3.8 or higher
+- Required libraries (listed in `requirements.txt`)
+
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/tech-news-summarization-engine.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd tech-news-summarization-engine
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   python app.py
+   ```
 
 ## Usage
 1. Launch the application and input a URL or upload a news article file.
 2. Select your desired summary length and sentiment analysis option.
 3. View the summarized output, keywords, and sentiment insights.
 
+## Project Structure
+```plaintext
+tech-news-summarization-engine/
+├── app.py               # Main application script
+├── summarizer.py        # Summarization logic
+├── sentiment.py         # Sentiment analysis module
+├── scraper.py           # Web scraping for news articles
+├── templates/           # Frontend templates (if applicable)
+├── static/              # Static files (CSS, JS, images)
+├── data/                # Sample news articles for testing
+├── requirements.txt     # Project dependencies
+└── README.md            # Project documentation
+```
 
 ## Technologies Used
 - **NLP Libraries:** spaCy, Hugging Face Transformers, NLTK
@@ -32,4 +67,4 @@ Welcome to the Tech News Summarization Engine! This project, developed in collab
 
 ## Acknowledgments
 - Special thanks to **Accenture** for their collaboration and support.
-- Thanks to the open-source community for the amazing tools and libraries used in this project.
+- Thanks to my group members, **Lillian Tran**, **Janae Perez**, **Phuong Nguyen**, and **Wanro Shao**

@@ -3,6 +3,8 @@
 ## Overview
 Welcome to the Tech News Summarization Engine! This project, developed in collaboration with **Accenture**, leverages cutting-edge Natural Language Processing (NLP) techniques to provide concise summaries of the latest tech news articles. The tool is designed to help users stay informed with minimal effort by distilling lengthy articles into their key points.
 
+**Presentation**: https://docs.google.com/presentation/d/1fu1tvYS-AFirWjZe8Yc86y1zcyV0HZrKlS5_vAMvW1o/edit?usp=sharing
+
 ## Features
 - **Automated Summarization:** Extracts the main ideas from articles with high accuracy.
 - **Sentiment Analysis:** Provides insights into the tone of the news (e.g., positive, neutral, negative).

@@ -80,5 +80,5 @@ This project is licensed under the Accenture License.
 
 ## Acknowledgments
 
-This project was developed during an internship at Accenture. We thank our mentors and team members for their guidance and support throughout the development process.
+This project was developed during an internship at Accenture. Thank you to my mentors and team members (**Janae Perez, Lillian Tran, Wanru Shao, and Phuong Nguyen**) for their guidance and support throughout the development process!
 

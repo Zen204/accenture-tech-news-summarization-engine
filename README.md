@@ -80,11 +80,11 @@ This project is licensed under the Accenture License.
 
 ## Team Members
 
-- **Maya Bock**
+- **Janae Perez**
 - **Zen Edwards**
-- **Madeline Gorey**
-- **Rowan Scassellati**
-
+- **Phuong Ngyuen**
+- **Lillian Tran**
+- **Wanru Shao**
 ---
 
 ## Acknowledgments

@@ -1,72 +1,84 @@
-# Tech News Summarization Engine
+# Tech Insights Analyzer
 
-## Overview
-Welcome to the Tech News Summarization Engine! This project, developed in collaboration with **Accenture**, leverages cutting-edge Natural Language Processing (NLP) techniques to provide concise summaries of the latest tech news articles. The tool is designed to help users stay informed with minimal effort by distilling lengthy articles into their key points.
+Welcome to the **Tech Insights Analyzer** repository! This tool was developed as part of an internship project at Accenture to analyze knowledge graphs constructed from technology news articles. The aim is to uncover insights about technology products, platforms, services, and their impact across various industries. By extracting meaningful information and trends, the tool helps inform decision-making in the tech landscape.
 
-**Presentation**: https://docs.google.com/presentation/d/1fu1tvYS-AFirWjZe8Yc86y1zcyV0HZrKlS5_vAMvW1o/edit?usp=sharing
+---
 
 ## Features
-- **Automated Summarization:** Extracts the main ideas from articles with high accuracy.
-- **Sentiment Analysis:** Provides insights into the tone of the news (e.g., positive, neutral, negative).
-- **Customizable Summaries:** Adjust the length and depth of summaries based on user preferences.
-- **Keyword Extraction:** Highlights the most important terms and topics in each article.
-- **User-Friendly Interface:** Clean, intuitive interface for seamless interaction.
 
-## How It Works
-1. **Data Collection:** The engine scrapes and aggregates tech news from various reputable sources.
-2. **Preprocessing:** Cleans and normalizes text data to ensure accurate analysis.
-3. **Summarization:** Utilizes advanced NLP algorithms (e.g., TextRank, BERT) to generate summaries.
-4. **Sentiment Analysis:** Analyzes the emotional tone using pre-trained sentiment models.
-5. **Output:** Provides users with concise summaries, key insights, and sentiment details.
+- **Knowledge Graph Analysis**: Process and analyze structured data derived from technology news articles.
+- **Trend Identification**: Extract patterns and trends about technology products and their influence across industries.
+- **Industry Impact Insights**: Provide insights into how technologies affect different sectors.
+- **Visualization Tools**: Generate graphs and charts to visualize trends and relationships within the knowledge graph.
+
+---
 
 ## Installation
-### Prerequisites
-- Python 3.8 or higher
-- Required libraries (listed in `requirements.txt`)
 
-### Steps
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tech-news-summarization-engine.git
+   git clone https://github.com/yourusername/tech-insights-analyzer.git
+   cd tech-insights-analyzer
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd tech-news-summarization-engine
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the application:
+3. Ensure you have Jupyter Notebook installed:
    ```bash
-   python app.py
+   pip install notebook
    ```
 
+---
+
 ## Usage
-1. Launch the application and input a URL or upload a news article file.
-2. Select your desired summary length and sentiment analysis option.
-3. View the summarized output, keywords, and sentiment insights.
 
-## Project Structure
-```plaintext
-tech-news-summarization-engine/
-├── app.py               # Main application script
-├── summarizer.py        # Summarization logic
-├── sentiment.py         # Sentiment analysis module
-├── scraper.py           # Web scraping for news articles
-├── templates/           # Frontend templates (if applicable)
-├── static/              # Static files (CSS, JS, images)
-├── data/                # Sample news articles for testing
-├── requirements.txt     # Project dependencies
-└── README.md            # Project documentation
-```
+1. **Run the Jupyter Notebook**:
+   ```bash
+   jupyter notebook
+   ```
+   Open the `Tech_News_Sum_ML.ipynb` file in your browser.
 
-## Technologies Used
-- **NLP Libraries:** spaCy, Hugging Face Transformers, NLTK
-- **Web Framework:** Flask/Django (specify as per your implementation)
-- **Data Visualization:** Matplotlib, Plotly (if visual insights are included)
-- **Scraping Tools:** BeautifulSoup, Scrapy
+2. **Load Your Data**: Follow the instructions in the notebook to load the dataset of technology news articles and construct the knowledge graph.
+
+3. **Analyze the Graph**: Use the provided tools to uncover insights, visualize trends, and generate reports.
+
+---
+
+## Dataset
+
+This tool processes technology news datasets containing:
+- Articles related to technology products, platforms, and services.
+- Metadata such as publication date, source, and tags.
+
+Ensure the dataset is structured appropriately before analysis. Example formats include JSON, CSV, or direct database connections.
+
+---
+
+## Example Output
+
+- **Trends**: Identify growing technologies and their adoption in various industries.
+- **Industry Impact**: Discover which sectors are most influenced by emerging technologies.
+- **Product Insights**: Uncover patterns related to specific technology products or services.
+
+---
+
+## Contributing
+
+We welcome contributions to enhance the tool! To contribute:
+1. Fork this repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request with a clear description of your changes.
+
+---
+
+## License
+
+This project is licensed under the Accenture License.
+
+---
 
 ## Acknowledgments
-- Special thanks to **Accenture** for their collaboration and support.
-- Thanks to my group members, **Lillian Tran**, **Janae Perez**, **Phuong Nguyen**, and **Wanro Shao**
+
+This project was developed during an internship at Accenture. We thank our mentors and team members for their guidance and support throughout the development process.
+
